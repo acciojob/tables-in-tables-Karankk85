@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .nested-table {
+            width: 100%;
+            border: 1px solid black;
+        }
+        .black-cell {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        a {
+            color: purple;
+            text-decoration: underline;
+        }
